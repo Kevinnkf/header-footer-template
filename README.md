@@ -8,14 +8,14 @@ To include icons and logos in your project, you can access the Remix Icon librar
 html
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
 
-###Importing Fonts
+### Importing Fonts
 Using the "Poppins" Font
 To load the "Poppins" font for your project, include the following CSS code at the top of your CSS file:
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 Save to grepper
 We use the "Poppins" font to ensure a modern and clean typography style in our project.
 
-###Viewing the Color Palette
+### Viewing the Color Palette
 Custom Color Variables
 In this project, we've defined custom color variables for consistent and efficient styling. Here are the color variables used in this project:
 :root {
