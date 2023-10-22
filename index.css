@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --text-dark: #020617;
+  --text-light: #64748b;
+  --extra-light: #f1f5f9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section_container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section_subheader {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.section_header {
+  max-width: 500px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  min-width: 150px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  color: var(--white);
+  background-color: var(--text-dark);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: var(--text-dark) !important;
+  background-color: var(--extra-light);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  max-width: var(--max-width);
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav_logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav_logo span {
+  padding: 5px 12px;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  color: var(--white);
+  background-color: var(--text-dark);
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--text-light);
+}
+
+.header_container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.header_content .title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.header_content .form_group {
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 2px solid var(--text-dark);
+  border-radius: 1rem;
+}
+
+.header_content input {
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+.header_content .form_group span {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hashtags {
+  max-width: 350px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: var(--text-light);
+}
+
+.header_image img {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.header_nav {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.header_nav span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+footer {
+    background-color: var(--extra-light);
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+  }
+  
+  .footer__col h4 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+  
+  .footer__col p {
+    margin-left: 1rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer__col p:hover {
+    color: var(--text-dark);
+  }
+  
+  .footer__bar {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--text-light);
+  }
+  
+  .footer__bar p {
+    font-size: 0.8rem;
+    color: var(--text-light);
+  }
+  
+  .footer__bar .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer__bar .socials span {
+    font-size: 1rem;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer__bar .socials span:hover {
+    color: var(--text-dark);
+  }
